@@ -1,6 +1,6 @@
 from django.urls import path 
 from . import views
 
-urlspattners=[
-    path('hola',views.main)
+urlpatterns=[  # Fixed the typo: was "urlspattners"
+    path('hola', views.main)
 ]
