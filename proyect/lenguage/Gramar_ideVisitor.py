@@ -24,6 +24,11 @@ class Gramar_ideVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by Gramar_ideParser#type.
+    def visitType(self, ctx:Gramar_ideParser.TypeContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by Gramar_ideParser#print.
     def visitPrint(self, ctx:Gramar_ideParser.PrintContext):
         return self.visitChildren(ctx)

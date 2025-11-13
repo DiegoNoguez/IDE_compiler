@@ -35,6 +35,15 @@ class Gramar_ideListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by Gramar_ideParser#type.
+    def enterType(self, ctx:Gramar_ideParser.TypeContext):
+        pass
+
+    # Exit a parse tree produced by Gramar_ideParser#type.
+    def exitType(self, ctx:Gramar_ideParser.TypeContext):
+        pass
+
+
     # Enter a parse tree produced by Gramar_ideParser#print.
     def enterPrint(self, ctx:Gramar_ideParser.PrintContext):
         pass
